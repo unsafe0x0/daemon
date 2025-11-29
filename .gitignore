@@ -49,13 +49,6 @@ coverage/
 # Ignore generated docs
 /target/doc/
 
-# Ignore systemd service files if not tracked
-coredump-daemon.service
-
-# Ignore installation scripts if not tracked
-install.sh
-uninstall.sh
-
 # Ignore user config
 ~/.config/coredump/
 
