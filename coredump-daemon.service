@@ -9,6 +9,8 @@ Restart=on-failure
 RestartSec=10
 StandardOutput=journal
 StandardError=journal
+Environment="DISPLAY=:1"
+Environment="XAUTHORITY=/run/user/1000/gdm/Xauthority"
 
 [Install]
 WantedBy=default.target
